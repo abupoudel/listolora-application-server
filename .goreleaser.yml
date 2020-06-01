@@ -24,7 +24,7 @@ release:
   disable: true
 
 nfpms:
-  - file_name_template: '{{ .ProjectName }}_{{ .Arch }}'
+  - file_name_template: '{{ .ProjectName }}_{{ .Arch }}_listo'
     vendor: ChirpStack
     homepage: https://www.loraserver.io/
     maintainer: Orne Brocaar <info@brocaar.com>
